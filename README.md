@@ -2,9 +2,9 @@
 
 Repoet bruker fontene Poppins, Lato og Zilla Slabs.
 
-Poppins skal brukes for titler og undertitler
-Lato skal brukes på undertitler og all brødtekst
-Zilla Slabs har hemmelig bruksområde ;)
+- Poppins skal brukes for titler og undertitler
+- Lato skal brukes på undertitler og all brødtekst
+- Zilla Slabs har hemmelig bruksområde ;)
 
 Fontene er litt begrenset med tanke på fontvekt(hvor thicc skriften er), men jeg tror det skal duge, sjekk ut tailwind.config.js, her ligger alle fargene og fontstørrelser/-regler man skal forholde seg til.
 
