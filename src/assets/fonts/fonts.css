@@ -1,0 +1,87 @@
+
+@font-face {
+font-family: 'Poppins';
+src: url('./Poppins/Poppins-Regular.ttf') format('truetype');
+font-weight: 400;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Poppins';
+src: url('./Poppins/Poppins-Italic.ttf') format('truetype');
+font-weight: 400;
+font-style: italic;
+}
+
+@font-face {
+font-family: 'Poppins';
+src: url('./Poppins/Poppins-Bold.ttf') format('truetype');
+font-weight: 700;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Poppins';
+src: url('./Poppins/Poppins-BoldItalic.ttf') format('truetype');
+font-weight: 700;
+font-style: italic;
+}
+
+/* Lato */
+@font-face {
+font-family: 'Lato';
+src: url('./Lato/Lato-Regular.ttf') format('truetype');
+font-weight: 400;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Lato';
+src: url('./Lato/Lato-Italic.ttf') format('truetype');
+font-weight: 400;
+font-style: italic;
+}
+
+@font-face {
+font-family: 'Lato';
+src: url('./Lato/Lato-Bold.ttf') format('truetype');
+font-weight: 700;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Lato';
+src: url('./Lato/Lato-BoldItalic.ttf') format('truetype');
+font-weight: 700;
+font-style: italic;
+}
+
+/* ZillaSlab */
+@font-face {
+font-family: 'ZillaSlab';
+src: url('./ZillaSlab/ZillaSlab-Regular.ttf') format('truetype');
+font-weight: 400;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'ZillaSlab';
+src: url('./ZillaSlab/ZillaSlab-Italic.ttf') format('truetype');
+font-weight: 400;
+font-style: italic;
+}
+
+@font-face {
+font-family: 'ZillaSlab';
+src: url('./ZillaSlab/ZillaSlab-Bold.ttf') format('truetype');
+font-weight: 700;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'ZillaSlab';
+src: url('./ZillaSlab/ZillaSlab-BoldItalic.ttf') format('truetype');
+font-weight: 700;
+font-style: italic;
+}
+  
