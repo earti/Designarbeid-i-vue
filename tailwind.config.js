@@ -19,6 +19,11 @@ export default {
       red, green = same as success and error, room for modification
       blue, pink = highlights
       */
+
+      /*
+      Updating colors elsewhere:
+      /src/components
+      */
       transparent: 'transparent',
       current: 'currentColor',
       
@@ -407,42 +412,59 @@ export default {
     //[fontSize, { lineHeight?, letterSpacing?, fontWeight? }]
     fontSize: { 
       //normal
-      'l': ['18px'],
-      'm': ['16px'],
-      's': ['14px'],
+      'l': ['18px', {lineHeight: '26px'}],
+      'm': ['16px', {lineHeight: '24px'}],
+      's': ['14px', {lineHeight: '22px'}],
 
       //bold, only for Lato!!
-      'l-bold': ['18px', {fontWeight: 700}],
-      'm-bold': ['16px', {fontWeight: 700}],
-      's-bold': ['14px', {fontWeight: 700}],
+      'l-bold': ['18px', {lineHeight: '26px', fontWeight: 700}],
+      'm-bold': ['16px', {lineHeight: '24px', fontWeight: 700}],
+      's-bold': ['14px', {lineHeight: '22px', fontWeight: 700}],
 
       //title
-      'title-1': ['56px'],
-      'title-2': ['48px'],
-      'title-3': ['36px'],
-      'title-4': ['30px'],
-      'title-5': ['24px'],
-      'title-6': ['20px'],
+      'title-1': ['56px', {lineHeight: '80px', fontWeight: 500}],
+      'title-2': ['48px', {lineHeight: '68px', fontWeight: 500}],
+      'title-3': ['36px', {lineHeight: '48px', fontWeight: 500}],
+      'title-4': ['32px', {lineHeight: '44px', fontWeight: 500}],
+      'title-5': ['24px', {lineHeight: '32px', fontWeight: 500}],
+      'title-6': ['20px', {lineHeight: '26px', fontWeight: 500}],
 
       //subtitle
-      'subtitle-1': ['40px'],
-      'subtitle-2': ['36px'],
-      'subtitle-3': ['32px'],
-      'subtitle-4': ['28px'],
-      'subtitle-5': ['24px'],
-      'subtitle-6': ['20px'],
+      'subtitle-1': ['40px', {lineHeight: '56px', fontWeight: 500}],
+      'subtitle-2': ['36px', {lineHeight: '48px', fontWeight: 500}],
+      'subtitle-3': ['32px', {lineHeight: '44px', fontWeight: 500}],
+      'subtitle-4': ['28px', {lineHeight: '40px', fontWeight: 500}],
+      'subtitle-5': ['24px', {lineHeight: '32px', fontWeight: 500}],
+      'subtitle-6': ['20px', {lineHeight: '26px', fontWeight: 500}],
     },
 
     //only above this line have been customized and "finalized", I'll fix the rest later
 
     spacing: {
-      4.5: '1.125rem',
-      5.5: '1.375rem',
+      'header': '64px',
+      'footer': '240px',
+      1: '4px',
+      2: '8px',
+      3: '12px',
+      4: '16px',
+      6: '24px',
+      8: '32px',
+      10: '40px',
+      12: '48px',
+      14: '56px',
+      16: '64px',
+      18: '72px',
+      20: '80px',
+      24: '96px',
+      28: '112px',
+      32: '128px',
+      240: '960px',
     },
     maxWidth: {
       2.5: '0.625rem',
       3: '0.75rem',
       4: '1rem',
+      100: '900px'
     },
     maxHeight: {
       35: '8.75rem',

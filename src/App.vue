@@ -1,12 +1,38 @@
-<script setup lang="ts">
+<script setup>
 import './style.css'
 import './assets/fonts/fonts.css';
+
+import Button from './components/Button_test.vue';
+import Header from './components/Header.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
-  <div class="text-title-1 font-poppins bg-primary-modern-900 text-primary-modern-200">Hello super duper cool person!</div>
-  <div class="font-lato text-subtitle-1 bg-secondary-classic-light text-primary-classic">Hello super duper cool person!</div>
-  <div class="text-title-2 font-poppins bg-primary-modern text-secondary-modern-light">Nabla!</div>
-  <div class="font-zilla text-l bg-primary-modern-900 text-primary-modern-200">This uses Zilla slab!</div>
-  <div class="text-title-2 font-poppins bg-primary-classic text-secondary-classic-light">Nabla, men classic!</div>
+  
+  <Header />
+  <div class="flex w-full flex-grow flex-col">
+    <div class="mx-auto flex w-full flex-col px-4 sm:px-6 lg:px-8 max-w-[1200px] py-10">
+      <article>
+        <h1 id="stillingsutlysninger" class="group flex items-center font-semibold tracking-tight text-title-2 mb-4">
+          Stillingsutlysninger
+        </h1>
+        <div class="w-full max-w-240 space-y-4">
+          <p class="break-words py-1 text-l">
+            Ta kontakt med oss dersom dere har en relevant stillingsutlysning dere ønsker å legge ut på siden.
+          </p>
+          <p class="break-words py-1 text-l">
+            <strong>Bedriftskontakten</strong>: 
+            <a class="transition-colors underline font-medium duration-200 after:content-['_↗'] hover:text-blue-500" node="[object Object]" href="mailto:bedkom@nabla.no">
+              bedkom(at)nabla.no
+            </a>
+          </p>
+        </div>
+      </article>
+    </div>
+  </div>
+    
+ 
+  <Footer />
+  <!--<Button class="text-gray-classic-900 font-poppins" size="small" variant="primary" @click="alert('Button clicked!');">Click Ma!</Button>-->
 </template>
+
