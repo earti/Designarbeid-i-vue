@@ -8,13 +8,13 @@
 
         <!-- Links in header -->
         <nav class="flex">
-            <a href="/om/" class="content-center pr-4">Om Nabla</a>
-            <a href="/for-komponenter/" class="content-center px-4">For komponenter</a>
-            <a href="/for-bedrifter/" class="content-center px-4">For bedrifter</a>
-            <a href="/ny-student/" class="content-center px-4">Ny student?</a>
-            <a href="/profil/">
+            <router-link to="/om" class="content-center pr-4">Om Nabla</router-link>
+            <router-link to="/for-komponenter" class="content-center px-4">For komponenter</router-link>
+            <router-link to="/for-bedrifter" class="content-center px-4">For bedrifter</router-link>
+            <router-link to="/ny-student" class="content-center pl-4 pr-3">Ny student?</router-link>
+            <router-link to="/profil">
                 <img class="h-8 w-8" src="../assets/images/profile.svg" alt="profil">
-            </a>
+            </router-link>
         </nav>
     </div>
 </header>
