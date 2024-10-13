@@ -2,9 +2,9 @@
 <header class="sticky top-0 grid-rows-1 bg-primary-classic text-gray-classic-25 font-poppins text-title-6 h-header content-center">
     <div class="flex items-center justify-between pl-4 pr-6">
         <!-- Logo -->
-        <a href="/">
+        <router-link to="/">
             <img class="h-12 w-12" src="../assets/images/nabla.svg" alt="logo">
-        </a>
+        </router-link>
 
         <!-- Links in header -->
         <nav class="flex">
