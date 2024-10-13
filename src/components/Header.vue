@@ -20,6 +20,12 @@
 </header>
 </template>
 
+<script>
+export default {
+    name: "Header",
+};
+</script>
+
 <script setup>
 // No special logic in the header
 </script>

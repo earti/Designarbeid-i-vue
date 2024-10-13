@@ -458,7 +458,9 @@ export default {
       24: '96px',
       28: '112px',
       32: '128px',
+      92: '368px',
       240: '960px',
+      280: '1120px', //MainContent width
     },
     maxWidth: {
       2.5: '0.625rem',
@@ -472,6 +474,9 @@ export default {
       90: '22.5rem',
       550: '34.375rem',
       300: '18.75rem'
+    },
+    minHeight: {
+      screen: 'calc(100vh - 60px - 2*40px - 214px)' //MainContent height
     },
     minWidth: {
       22.5: '5.625rem',
