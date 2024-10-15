@@ -12,10 +12,10 @@ Etterhver kommer det spacing og høyder og bredder på elementer. Notasjonen er 
 
 I et element, her en div, kan man skrive:
 ```
-<div class="text-title-1 font-poppins bg-primary-modern-900 text-primary-modern-200">Hei!</div>
+<div class="text-title-1 font-poppins bg-primary-900 text-primary">Hei!</div>
 ```
 
-Her får teksten den selvdefinerte størrelsen title-1 (som er 56px), fonten Poppins, bakgrunnsfargen primary modern 900, og tekstfargen primary modern DEFAULT. Fargene og tekststørrelsen er definert i tailwind.config.js. Det er ekstremt mye tekst for tilsynelatende lite endringer, men det er verdt det! Det finnes snarveier for å unngå repetisjon på mye, som jeg håper å få implementert snart. Darkmode er også nokså enkelt tror jeg, men det prioriteres ikke enda. 
+Her får teksten den selvdefinerte størrelsen title-1, fonten Poppins, bakgrunnsfargen primary 900, og tekstfargen primary DEFAULT. Fargene og tekststørrelsen er definert i tailwind.config.js, som henter variabler fra globals.css. Det er ekstremt mye tekst for tilsynelatende lite endringer, men det er verdt det! Det finnes snarveier for å unngå repetisjon på mye, som jeg håper å få implementert snart.
 
 Lek litt rundt med App.vue og prøv å lage egne komponenter du kan bruke på siden i mappen components.
 
