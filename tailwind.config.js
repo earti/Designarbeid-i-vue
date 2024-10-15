@@ -582,7 +582,7 @@ export default {
       's-bold': ['14px', {lineHeight: '22px', fontWeight: 700}],
 
       //title
-      'title-1': ['56px', {lineHeight: '72px', fontWeight: 700}],
+      'title-1': ['44px', {lineHeight: '72px', fontWeight: 700}],
       'title-2': ['48px', {lineHeight: '60px', fontWeight: 700}],
       'title-3': ['36px', {lineHeight: '48px', fontWeight: 500}],
       'title-4': ['32px', {lineHeight: '44px', fontWeight: 500}],
@@ -590,7 +590,7 @@ export default {
       'title-6': ['20px', {lineHeight: '26px', fontWeight: 500}],
 
       //subtitle
-      'subtitle-1': ['18px', {lineHeight: '26px', fontWeight: 300}],
+      'subtitle-1': ['24px', {lineHeight: '32px', fontWeight: 400}],
       'subtitle-2': ['36px', {lineHeight: '48px', fontWeight: 500}],
       'subtitle-3': ['32px', {lineHeight: '44px', fontWeight: 500}],
       'subtitle-4': ['28px', {lineHeight: '40px', fontWeight: 500}],
@@ -745,6 +745,11 @@ export default {
       '21/9': '21 / 9'
     },
     borderWidth: {
+      1: '1px',
+      2: '2px',
+      3: '3px',
+      4: '4px',
+      5: '5px',
       6: '6px',
       10: '10px',
       12: '12px'

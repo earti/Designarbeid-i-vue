@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-around py-8">
+    <div class="flex justify-around mt-32">
         <!-- Arrangementer -->
         <div>
             <div class="text-dark font-poppins text-title-4 text-center">Arrangementer</div>

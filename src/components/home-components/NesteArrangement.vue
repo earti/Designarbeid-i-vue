@@ -7,8 +7,8 @@
         <!-- Text and buttons -->
         <div>
             <div class="w-140">
-                <div class="text-gray-dark font-lato text-subtitle-1">Neste Arrangement:</div>
-                <div class="text-dark font-poppins text-title-2">Immatrikuleringsball</div>
+                <div class="text-dark font-lato text-subtitle-1">Neste fredag:</div>
+                <div class="text-dark font-poppins text-title-1">Immatrikuleringsball</div>
                 <div class="text-dark font-lato text-m">Insert en beskrivelse av det neste arrangementet her. Insert en beskrivelse av det neste arrangementet her. Insert en beskrivelse av det neste arrangementet her. Insert en beskrivelse av det neste arrangementet her.</div>
             </div>
             
