@@ -8,6 +8,7 @@ export default {
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
+  darkMode: 'class',
   theme: {
     colors: {
       /*
@@ -430,7 +431,7 @@ export default {
       'title-6': ['20px', {lineHeight: '26px', fontWeight: 500}],
 
       //subtitle
-      'subtitle-1': ['24px', {lineHeight: '36px', fontWeight: 300}],
+      'subtitle-1': ['18px', {lineHeight: '26px', fontWeight: 300}],
       'subtitle-2': ['36px', {lineHeight: '48px', fontWeight: 500}],
       'subtitle-3': ['32px', {lineHeight: '44px', fontWeight: 500}],
       'subtitle-4': ['28px', {lineHeight: '40px', fontWeight: 500}],

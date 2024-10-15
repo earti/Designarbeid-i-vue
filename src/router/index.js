@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HjemView from '../views/hjem/hjem.vue'
 import NyStudentView from '../views/ny-student/ny-student.vue'
+import ProfilView from '../views/profil/profil.vue'
 import UnderKonstruksjonView from '../views/diverse/error/under-konstruksjon.vue'
 
 const routes = [
@@ -47,7 +48,7 @@ const routes = [
 // Annet
   { path: '/ny-student', component: NyStudentView },
   { path: '/joulekalender', component: UnderKonstruksjonView },
-  { path: '/profil', component: UnderKonstruksjonView },
+  { path: '/profil', component: ProfilView },
   { path: '/sok', component: UnderKonstruksjonView },
   { path: '/admin', component: UnderKonstruksjonView },
 

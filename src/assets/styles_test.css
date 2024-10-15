@@ -1,4 +1,3 @@
-/* Light Mode (default) */
 :root {
   --bg-primary: #1045A6;
   --bg-secondary: #F09509;
@@ -21,11 +20,11 @@
 }
 
 /* Dark + Classic */
-[data-theme='dark'][data-theme='modern'] {
+[data-theme='dark'][data-theme='classic'] {
     --bg-primary: #2563EB;
     --bg-secondary: #FB923C;
     --bg-error: #EF4444;
-  }
+}
 
 /* Dark + Modern */
 [data-theme='dark'][data-theme='modern'] {

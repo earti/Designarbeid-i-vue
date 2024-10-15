@@ -7,13 +7,14 @@
         <!-- Text and buttons -->
         <div>
             <div class="w-140">
-                <div class="text-gray-classic-950 font-lato text-subtitle-1">Neste Arrangement:</div>
-                <div class="text-gray-classic-950 font-poppins text-title-2">ReKas Fotballkamp</div>
-                <div class="text-gray-classic-950 font-lato text-l">Insert en beskrivelse av det neste arrangementet her. Insert en beskrivelse av det neste arrangementet her. Insert en beskrivelse av det neste arrangementet her. Insert en beskrivelse av det neste arrangementet her.</div>
+                <div class="text-gray-classic-600 font-lato text-subtitle-1">Neste Arrangement:</div>
+                <div class="text-gray-classic-950 font-poppins text-title-2">Immatrikuleringsball</div>
+                <div class="text-gray-classic-900 font-lato text-m">Insert en beskrivelse av det neste arrangementet her. Insert en beskrivelse av det neste arrangementet her. Insert en beskrivelse av det neste arrangementet her. Insert en beskrivelse av det neste arrangementet her.</div>
             </div>
-            <div class="flex justify-between w-100 mt-4">
-                <div>Flere arrangementer</div>
-                <div>Meld deg på!</div>
+            <div class="flex justify-around w-120 mt-8">
+                <router-link to="/" class="underline p-2">Se flere</router-link>
+                <router-link to="/" class="bg-primary-classic-500 text-gray-classic-25 p-2 rounded-[4px]">Meld deg på!</router-link>
+
             </div>
         </div>
 
