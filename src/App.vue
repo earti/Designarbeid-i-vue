@@ -9,7 +9,9 @@ import Footer from './components/Footer.vue';
 </script>
 
 <template>
+  <main class="bg-light">
   <Header></Header>
   <MainContent><router-view></router-view></MainContent>
   <Footer></Footer>
+  </main>
 </template>

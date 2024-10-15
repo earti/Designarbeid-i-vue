@@ -1,5 +1,5 @@
 <template>
-<footer class="bg-primary-classic text-gray-classic-25 p-6">
+<footer class="bg-primary text-gray-25 p-6">
     <div class="mx-auto flex w-240 justify-between items-start flex-wrap">
         <!-- Address Section -->
         <div class="m-3 font-lato text-m">
