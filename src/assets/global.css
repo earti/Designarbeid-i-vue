@@ -1,7 +1,7 @@
 :root {
   /* light means light color difference, not light color */
-  --text-color: #0C1B4A;
-  --text-dark: #FAFEFF;
+  --text-light: #FCFCFD;
+  --text-dark: #0B0F19;
 
   /* Primary */
   --primary-25: #FAFEFF;
@@ -188,8 +188,8 @@
 
 /* Classic Light Theme */
 [data-theme='classic'][data-mode='light'] {
-  --text-color: #0C1B4A;
-  --text-dark: #FAFEFF;
+  --text-light: #FCFCFD;
+  --text-dark: #0B0F19;
   /* Primary */
   --primary-25: #FAFEFF;
   --primary-50: #D9F7FF;
@@ -374,8 +374,8 @@
 
 /* Modern Light Theme */
 [data-theme='modern'][data-mode='light'] {
-  --text-color: #051C33;
-  --text-dark: #F5FDFF;
+  --text-light: #FCFCFD;
+  --text-dark: #101319;
   /* Primary */
   --primary-25: #F5FDFF;
   --primary-50: #DFF6FD;
@@ -561,8 +561,8 @@
 
 /* Classic Dark Theme */
 [data-theme='classic'][data-mode='dark'] {
-  --text-color: #0C1B4A;
-  --text-dark: #FAFEFF;
+  --text-light: #0B0F19;
+  --text-dark: #FCFCFD;
   /* Primary */
   --primary-25: #FAFEFF;
   --primary-50: #D9F7FF;
@@ -749,8 +749,8 @@
 
 /* Modern Dark Theme */
 [data-theme='modern'][data-mode='dark'] {
-  --text-color: #F5FDFF;
-  --text-dark: #051C33;
+  --text-light: #101319;
+  --text-dark: #FCFCFD;
   /* Primary */
   --primary-25: #F5FDFF;
   --primary-50: #DFF6FD;
