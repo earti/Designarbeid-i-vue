@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HjemView from '../views/hjem/hjem.vue'
 import NyStudentView from '../views/ny-student/ny-student.vue'
 import ProfilView from '../views/profil/profil.vue'
+import StillingsannonseView from '../views/for-bedrifter/stillingsannonse/stillingsannonse.vue'
 import UnderKonstruksjonView from '../views/diverse/error/under-konstruksjon.vue'
 
 const routes = [

@@ -32,9 +32,27 @@
     data() {
       return {
         quotes: [
+          // Kan kobles opp mot URLer når backend kommer på plass, og av knapp i profil
             "Du kan nå endre fargetema i profilen din 🎨", 
             "WebKom er best 💯", 
             "Sjekk ut det nyeste Nabladet 🔆",
+            "Ny kodegolf! ⛳",
+            "Nye brettspill på kontoret 🎲",
+            "Oter 🦦",
+            "Lenge leve Snabla 🐘",
+            "Lenge leve Nabi 🐘",
+            "UFO? 🛸",
+            "KultKom ☄️",
+            "Søk undergruppe 📅", //if september
+            "God 17.mai 🎉", //if 17.mai
+            "Gratulerer med dagen 🎉", //if 17.mai
+            "Søk UKAAAAA, bli slave du også 🧨", //if UKA
+            "Skal DU stille på SKE? 😇", //if SKE
+            "Du SKAL stille på SKE! 😈", //if SKE
+            "God jul 🎄", //if desember
+            "Kanelbolleonsdag 🍴", //if onsdag
+            "Sconestorsdag 🫓", //if torsdag
+            "Fredagsquiz ❔", //if fredag
           ],
         currentQuote: "Insert et tips" 
       };
