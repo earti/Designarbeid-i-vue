@@ -23,6 +23,7 @@ import '../../../assets/fonts/fonts.css';
             </p>
           </div>
         </article>
+        <img src="../../../assets/images/Spin the wheel.png" width="808px">
       </div>
     </div>
 </template>

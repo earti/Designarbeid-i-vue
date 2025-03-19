@@ -44,7 +44,7 @@ const routes = [
   { path: '/for-bedrifter/eureka', component: UnderKonstruksjonView },
   { path: '/for-bedrifter/kurs', component: UnderKonstruksjonView },
   { path: '/for-bedrifter/screeningintervju', component: UnderKonstruksjonView },
-  { path: '/for-bedrifter/stillingsannonse', component: UnderKonstruksjonView },
+  { path: '/for-bedrifter/stillingsannonse', component: StillingsannonseView },
 
 // Annet
   { path: '/ny-student', component: NyStudentView },
